@@ -10,6 +10,11 @@ Just incase
 
 Q3 Answer - expectation of the maximum of GBPUSD price path: 1.42012
 
-Q5 Anwer - European Put Option Value 1.28065x£100k = £8048787.28
+Q5 Answer - European Put Option Value 1.28065x100k = £8048787.28
+
+In terms of the project, we can see that in the hedged portfolio the returns to the upside are capped but downside is limited (lowest return is 9.7% vs 3.8%). However, in reducing the downside IRRs it also shifts the distribution to be negatively skewed as well as reducing best case (24.8% vs 26.8%). I've included a notebook containing this albeit limited analysis of the return processes 
+
+In terms of the validity of this model, due to the returns being geometrically symmetric this results in an upward drift in prices and hence for more accurate estimation would be to use log-returns 
+
 
 This project took me 3hrs to complete

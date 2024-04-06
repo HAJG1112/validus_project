@@ -128,6 +128,8 @@ if __name__ == "__main__":
 
     paths = generate_price_paths(S0, v, N)
 
+    pd.DataFrame(paths).to_csv("GBPUSD_paths.csv")
+
     max_paths = round(max_asset_expectation(paths), 5)
 
     print(f"Q3: expectation of the maximum of GBPUSD price path: {max_paths}")
